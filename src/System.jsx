@@ -108,7 +108,7 @@ export default function System() {
                   <tr key={index}>
                     <td>{index + 1}</td>
                     <td>{el.name}</td>
-                    <td>{el.price}</td>
+                    <td>{el.price} $</td>
                     <td>
                       <div className="flex gap-2 items-center">
                         <button
